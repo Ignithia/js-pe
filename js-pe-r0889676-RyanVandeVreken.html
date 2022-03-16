@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <title>Anoroc Services</title>
+</head>
+
+<body>
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 col-md-7 py-4">
+                <h4 class="text-white">About</h4>
+                <p class="text-muted">Add some information about below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+              </div>
+              <div class="col-sm-4 offset-md-1 py-4">
+                <h4 class="text-white">Contact</h4>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="text-white">Follow on Twitter</a></li>
+                  <li><a href="#" class="text-white">Like on Facebook</a></li>
+                  <li><a href="#" class="text-white">Email me</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+          <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+              <strong>Anoroc Services</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+      </header>
+      <main class="row m-2">
+    <section class="col-sm-8">
+        <h1>Registreer</h1>
+        <p>Meld je aan bij Anoroc Services, wij beschermen jouw software tegen malware</p>
+        <form>
+            <div class="form-row">
+                <div class="col">
+                    <label for="vn_input">Voornaam</label>
+                    <input type="text" id="vn_input" class="form-control" placeholder="Voornaam" />
+                </div>
+                <div class="col">
+                    <label for="an_input">Achternaam</label>
+                    <input type="text" id="an_input" class="form-control" placeholder="Achternaam" />
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col">
+                    <label for="gebruikersnaam">Gebruikersnaam</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">@</div>
+                        </div>
+                        <input type="text" class="form-control" id="gebruikersnaam" placeholder="r0000000">
+                    </div>
+                </div>
+                <div class="form-group col">
+                    <label for="email_input">E-mail</label>
+                    <input type="email" class="form-control" id="email_input" placeholder="you@example.com" />
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col">
+                    <label for="ww_input">Wachtwoord</label>
+                    <input type="password" class="form-control" id="ww_input" placeholder="wachtwoord" />
+                </div>
+                <div class="form-group col">
+                    <label for="wwc_input">Bevestig Wachtwoord</label>
+                    <input type="password" class="form-control" id="wwc_input" placeholder="wachtwoord" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="adres_input">Adres</label>
+                <input type="text" class="form-control" id="adres_input" placeholder="1234 Sesamstraat" />
+            </div>
+            <div class="form-row">
+                <div class="form-group col">
+                    <label for="land_input">Land</label>
+                    <select class="form-control" id="land_input">
+                        <option selected>Belgïe</option>
+                        <option>Duitsland</option>
+                        <option>Nederland</option>
+                        <option>Frankrijk</option>
+                        <option>Verenigd Koninkrijk</option>
+                        <option>Luxemburg</option>
+                    </select>
+                </div>
+                <div class="form-group col">
+                    <label for="prov_input">Provincie</label>
+                    <select id="prov_input" class="form-control">
+                        <option selected>Antwerpen</option>
+                        <option>Limburg</option>
+                        <option>Oost-Vlaanderen</option>
+                        <option>Vlaams-Brabant</option>
+                        <option>West-Vlaanderen</option>
+                        <option>Henegouwen</option>
+                        <option>Luik</option>
+                        <option>Luxemburg</option>
+                        <option>Namen</option>
+                        <option>Waals-Brabant</option>
+                    </select>
+                </div>
+                <div class="form-group col">
+                    <label for="pc_input">Postcode</label>
+                    <input type="text" class="form-control" id="pc_input" placeholder="0000"/>
+                </div>
+            </div>
+            </div>
+            <div class="form-row pt-4 my-md-5 pt-md-5 border-top">
+                <div class="form-group col">
+                    <h3>Hou me op de hoogte</h3>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="nieuwsbrief" />
+                        <label class="form-check-label" for="gridCheck"> Inschrijven voor onze nieuwsbrief</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="algemenevoorwaarden" />
+                        <label class="form-check-label" for="gridCheck"> Ik ga akkoord met de algemene
+                            voorwaarden</label>
+                    </div>
+                </div>
+                <div class="form-group col">
+                    <h3>Betaling</h3>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" id="banking" value="banking app" name="radiobtn" checked/>
+                        <label class="form-check-label" for="banking"> Banking app</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" id="overschrijving" value="overschijving" name="radiobtn"/>
+                        <label class="form-check-label" for="overschrijving">Overschrijving</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" id="visa" value="visa" name="radiobtn"/>
+                        <label class="form-check-label" for="visa">Visa card</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" id="paypal" value="paypal" name="radiobtn"/>
+                        <label class="form-check-label" for="paypal">PayPal</label>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-4 my-md-5 pt-md-5 border-top">
+                <button type="button" class="btn btn-primary col" id="btn_betaal">betaal</button>
+            </div>
+        </form>
+    </section>
+    <section class="col-sm-4">
+        <div id="alerts">
+
+        </div>
+    </section>
+</main>
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
